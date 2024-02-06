@@ -1,0 +1,25 @@
+@import './fonts.scss', './common.scss',
+'./media.scss',
+"../../components/Nav/Nav.scss",
+"../../components/Upcoming/Upcoming.scss",
+"@/components/Slider/slider.scss",
+"@/components/InfoBlock/InfoBlock.scss",
+"@/components/Top/Top.scss",
+"@/components/Content/Content.scss",
+"@/components/SearchInput/SearchInput.scss",
+"@/components/InfoId/InfoId.scss";
+
+
+body{
+    background-color: #141414;
+}
+
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background: linear-gradient(180deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+}
